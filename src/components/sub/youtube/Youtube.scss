@@ -7,8 +7,8 @@
 	.Youtubeapi {
 		display: flex;
 		position: absolute;
-		margin-left: 100px;
-		margin-top: -15rem;
+		margin-left: 110px;
+		margin-top: -18rem;
 
 		&:hover {
 			img:nth-of-type(1) {
@@ -21,7 +21,7 @@
 	.Thumbnail {
 		width: 360px;
 		height: 199px;
-		margin-left: 28px;
+		margin-left: 20px;
 		object-fit: cover;
 		border-radius: 10px;
 		box-shadow: 2px 3px 3px 2px gray;

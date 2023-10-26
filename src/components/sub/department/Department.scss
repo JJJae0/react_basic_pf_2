@@ -4,7 +4,7 @@
 
 .container {
 	.DepartmentImg {
-		width: 1700px;
+		width: 100%;
 		height: 400px;
 	}
 	.memberBox {
@@ -18,9 +18,10 @@
 			margin-bottom: 80px;
 
 			.pic {
-				width: 100%;
+				width: 90%;
 				height: 45vh;
 				margin-top: 70px;
+				overflow: hidden;
 
 				img {
 					width: 100%;
