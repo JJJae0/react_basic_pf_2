@@ -137,6 +137,7 @@ export default function Contact() {
 
 	return (
 		<div className='Contact'>
+			<img className='ContactImg' src='../img/Contact.png' alt='' />
 			<div className='content1'>
 				<div className='mapBox'>
 					<div className='buttonBox'>

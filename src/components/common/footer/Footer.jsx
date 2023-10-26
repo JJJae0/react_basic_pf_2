@@ -8,46 +8,45 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className='top'>
-				<h2>Portfolio UI</h2>
+				<h2>Company</h2>
 				<div className='footer1'>
 					<ul>
 						<li>
-							<h3>Simply</h3>
+							<h3>IT Digital Enterprise</h3>
 						</li>
 
-						<li>Industry</li>
-						<li>Distracted </li>
-						<li>Letters</li>
-						<li>Lorem</li>
+						<li>APPLE</li>
+						<li>Microsot</li>
+						<li>Samsung Electronics</li>
+						<li>Alphabet</li>
 					</ul>
 					<ul>
 						<li>
-							<h3>Content</h3>
+							<h3>Automobile</h3>
 						</li>
-						<li>Renaissance</li>
-						<li>Standard</li>
-						<li>Translation</li>
-						<li>Interested</li>
-						<li>Comes</li>
+						<li>TOYOTA</li>
+						<li>Mercedes-Benz</li>
+						<li>BMW</li>
+						<li>Tesla</li>
+						<li>Hyundai</li>
 						<li>Bonorum</li>
-						<li>Malorum</li>
+						<li>Porsche</li>
 					</ul>
 					<ul>
 						<li>
-							<h3>Characteristic</h3>
+							<h3>Pharmaceutical Company</h3>
 						</li>
-						<li>Popular</li>
-						<li>Hampden</li>
-						<li>Purpose</li>
-						<li>Typesetting</li>
-						<li>PageMaker</li>
-						<li>Variations</li>
-						<li>Embarrassing</li>
+						<li>Pfizer</li>
+						<li>AbbVie</li>
+						<li>Janssen</li>
+						<li>GSK</li>
+						<li>BMS</li>
+						<li>Sanofi</li>
 					</ul>
 				</div>
 			</div>
 			<div className='lower'>
-				<span>ⓒ 2023. Portfolio. All rights reserved.</span>
+				<span>ⓒ 2023. Portfolio</span>
 
 				<ul className='sns'>
 					<li>

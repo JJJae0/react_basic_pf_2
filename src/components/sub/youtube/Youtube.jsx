@@ -11,6 +11,7 @@ export default function Youtube() {
 		<>
 			<Layout title={''}>
 				<div className='Youtube'>
+					<img className='YoutubeImg' src='../img/Youtube.png' alt='' />
 					<div className='Main'>
 						<div className='layoutBox'>
 							<div className='Line'></div>

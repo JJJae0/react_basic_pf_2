@@ -71,6 +71,7 @@ export default function Gallery() {
 	return (
 		<>
 			<div className='Gallery'>
+				<img className='GalleryImg' src='../img/Gallery.png' alt='' />
 				<div className='searchBox'>
 					<form onSubmit={handleSubmit}>
 						<input
