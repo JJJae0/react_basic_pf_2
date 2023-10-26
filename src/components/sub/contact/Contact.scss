@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.Contact {
+	figure {
+		background: black;
+	}
+
+	.mailBox {
+		width: 35.7%;
+		height: 86%;
+		margin-bottom: 10px;
+		border: 1px solid black;
+		position: absolute;
+		top: 50px;
+		left: 90rem;
+		background-color: white;
+		border-radius: 5px;
+		z-index: 5;
+		overflow: hidden;
+
+		.upper {
+			position: fixed;
+			top: 13rem;
+			margin-left: 20px;
+		}
+		.upperemail {
+			position: fixed;
+			top: 23rem;
+			margin-left: 20px;
+		}
+
+		label {
+			font: bold 8rem/1 'Playfair Display';
+			font-weight: bold;
+			color: #333;
+			margin-right: 20px;
+			position: relative;
+			top: 20px;
+		}
+		input[type='text'],
+		input[type='email'] {
+			border: none;
+			padding: 10px 20px;
+			border-bottom: 10px solid #333;
+			margin-right: 50px;
+			outline: none;
+			transition: 0.5s;
+
+			&:focus {
+				background: lightcyan;
+			}
+		}
+	}
+	.lower {
+		width: 100%;
+		display: flex;
+		margin-left: 20px;
+		margin-top: 28rem;
+
+		label {
+			font: bold 2rem/1 'Playfair Display';
+			font-weight: bold;
+			color: #333;
+			margin-right: 22px;
+			position: relative;
+			top: 20px;
+		}
+		textarea {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-bottom: 1px solid #555;
+			margin-right: 50px;
+			resize: none;
+			outline: none;
+			transition: 0.5s;
+			&:focus {
+				background: lightcyan;
+			}
+		}
+	}
+	.btnSet {
+		position: fixed;
+		justify-content: center;
+		top: 48rem;
+		transform: translate(53%, 0);
+		display: flex;
+		gap: 80px;
+
+		input {
+			width: 100px;
+			height: 30px;
+
+			border: none;
+
+			background-color: #444;
+			color: white;
+		}
+	}
+}
+.content1 {
+	position: relative;
+	border: 1px solid black;
+
+	.mapBox {
+		.buttonBox {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid black;
+			button {
+				width: 150px;
+				height: 30px;
+				border: none;
+				background-color: #444;
+				color: white;
+				margin-left: 10px;
+				font-family: 'arial';
+			}
+		}
+	}
+
+	.container {
+		width: 70%;
+		height: 60vh;
+		background: black;
+		position: relative;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+
+		.map,
+		.view {
+			width: 100%;
+			height: 100%;
+			background: black;
+			position: absolute;
+			top: 0;
+			left: 0px;
+			opacity: 0;
+			z-index: 1;
+
+			&.on {
+				opacity: 1;
+				z-index: 2;
+			}
+		}
+	}
+
+	.textBox {
+		justify-content: space-around;
+		display: flex;
+		color: black;
+		margin-top: 30px;
+		font: solid 1rem/1 'arial';
+
+		.text1 {
+			margin-left: 120px;
+			margin-right: 100px;
+			margin-bottom: 20px;
+		}
+
+		nav.others {
+			width: 100%;
+			text-align: center;
+		}
+		nav.others a {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			margin: 0px 10px;
+			opacity: 0.4; /* 8단계 버튼 활성화하기 */
+			filter: saturate(0.7);
+			background-color: lightgray;
+		}
+
+		.text3 {
+			color: black;
+			margin-right: 100px;
+		}
+	}
+
+	ul {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: flex;
+		gap: 20px;
+		display: flex;
+		justify-content: space-evenly;
+
+		li {
+			cursor: pointer;
+			color: black;
+		}
+
+		li.on {
+			color: blue;
+		}
+	}
+}
+
+.mobile {
+	.Contact {
+		figure {
+			background: black;
+		}
+
+		.content1 {
+			position: relative;
+			border: 1px solid black;
+			overflow: hidden;
+
+			.mapBox {
+				.buttonBox {
+					padding-top: 10px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid black;
+					button {
+						width: 100px;
+						height: 30px;
+						border: none;
+						background-color: #444;
+						color: white;
+						margin-left: 10px;
+						font-family: 'arial';
+					}
+				}
+			}
+
+			.container {
+				width: 100%;
+				height: 60vh;
+				background: red;
+				position: relative;
+				top: 0;
+				left: 0;
+				overflow: hidden;
+
+				.map,
+				.view {
+					width: 100%;
+					height: 100%;
+					background: black;
+					position: absolute;
+					top: 0;
+					left: 0px;
+					opacity: 0;
+					z-index: 1;
+
+					&.on {
+						opacity: 1;
+						z-index: 2;
+					}
+				}
+			}
+
+			.textBox {
+				justify-content: space-around;
+				display: flex;
+				color: black;
+				margin-top: 30px;
+				font: solid 1rem/1 'arial';
+
+				.text1 {
+					margin-left: 120px;
+					margin-right: 100px;
+					margin-bottom: 20px;
+				}
+
+				nav.others {
+					width: 100%;
+					text-align: center;
+				}
+				nav.others a {
+					display: inline-block;
+					width: 30px;
+					height: 30px;
+					border-radius: 50%;
+					margin: 0px 10px;
+					opacity: 0.4; /* 8단계 버튼 활성화하기 */
+					filter: saturate(0.7);
+					background-color: lightgray;
+				}
+
+				.text3 {
+					color: black;
+					margin-right: 100px;
+				}
+			}
+
+			ul {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				display: flex;
+				gap: 20px;
+				display: flex;
+				justify-content: space-evenly;
+
+				li {
+					cursor: pointer;
+					color: black;
+				}
+
+				li.on {
+					color: red;
+				}
+			}
+		}
+	}
+}
+// 반응형 완료
+
+.tablet {
+	.content1 {
+		position: relative;
+		border: 1px solid black;
+
+		.mapBox {
+			.buttonBox {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border-bottom: 1px solid black;
+				button {
+					width: 150px;
+					height: 30px;
+					border: none;
+					background-color: #444;
+					color: white;
+					margin-left: 10px;
+					font-family: 'arial';
+				}
+			}
+		}
+
+		.container {
+			width: 100%;
+			height: 60vh;
+			background: black;
+			position: relative;
+			top: 0;
+			left: 0;
+			overflow: hidden;
+
+			.map,
+			.view {
+				width: 100%;
+				height: 100%;
+				background: black;
+				position: absolute;
+				top: 0;
+				left: 0px;
+				opacity: 0;
+				z-index: 1;
+
+				&.on {
+					opacity: 1;
+					z-index: 2;
+				}
+			}
+		}
+
+		.textBox {
+			justify-content: space-around;
+			display: flex;
+			color: black;
+			margin-top: 30px;
+			font: solid 1rem/1 'arial';
+
+			.text1 {
+				margin-left: 120px;
+				margin-right: 100px;
+				margin-bottom: 20px;
+			}
+
+			nav.others {
+				width: 100%;
+				text-align: center;
+			}
+			nav.others a {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				margin: 0px 10px;
+				opacity: 0.4; /* 8단계 버튼 활성화하기 */
+				filter: saturate(0.7);
+				background-color: lightgray;
+			}
+
+			.text3 {
+				color: black;
+				margin-right: 100px;
+			}
+		}
+
+		ul {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: flex;
+			gap: 20px;
+			display: flex;
+			justify-content: space-evenly;
+
+			li {
+				cursor: pointer;
+				color: black;
+			}
+
+			li.on {
+				color: blue;
+			}
+		}
+	}
+}

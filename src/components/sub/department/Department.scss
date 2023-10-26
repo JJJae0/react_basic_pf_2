@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.container {
+	.memberBox {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap; //줄바꿈처리
+		float: right;
+
+		article {
+			width: 32%;
+			margin-bottom: 80px;
+
+			.pic {
+				width: 100%;
+				height: 45vh;
+				margin-top: 70px;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+					transition: 0.5s;
+					border-radius: 7px;
+
+					&:nth-of-type(1) {
+						filter: blur(0.1px) saturate(1);
+						opacity: 1;
+					}
+					&:nth-of-type(2) {
+						filter: saturate(10);
+					}
+				}
+			}
+
+			&:hover {
+				img:nth-of-type(1) {
+					opacity: 0.5;
+					transform: translateZ(-5%);
+				}
+				img:nth-of-type(2) {
+					filter: saturate(1);
+				}
+			}
+			.name1 {
+				font-family: 'Cormorant Garamond';
+				font-size: 20px;
+			}
+			.name2 {
+				font-family: 'Cormorant Garamond';
+				font-size: 70px;
+			}
+		}
+	}
+}
+
+.main1 {
+	.main2 {
+		height: 100px;
+		font-size: 300px;
+		font-family: 'Abril Fatface';
+		padding-left: 50px;
+		text-align: left;
+		position: fixed;
+		top: 40rem;
+	}
+	.main3 {
+		font-family: 'Playfair Display', serif;
+		position: fixed;
+		top: 24%;
+		left: 40px;
+		transform: rotateZ(270deg);
+		font-size: 2rem;
+	}
+}
+
+.sliderBox {
+	.sliderWrap {
+		width: 40%;
+		height: 30vh;
+		position: relative;
+		margin-bottom: 100px;
+		margin-top: 20px;
+		perspective: 600px;
+
+		article {
+			width: 100%;
+			height: 100%;
+			background: #888;
+			transition: 0.5s;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 50px;
+			color: #fff;
+
+			&:nth-of-type(1) {
+				opacity: 0;
+				left: -150%;
+				transform: rotateY(80deg);
+			}
+
+			&:nth-of-type(2) {
+				opacity: 0.4;
+				left: calc(-50% - 50px);
+				width: 50%;
+				transform: rotateY(45deg);
+			}
+
+			&:nth-of-type(3) {
+				opacity: 1;
+				left: 0;
+				width: 100%;
+				transform: rotateY(0deg);
+			}
+			&:nth-of-type(4) {
+				opacity: 0.4;
+				left: calc(100% + 50px);
+				width: 50%;
+				transform: rotateY(-45deg);
+			}
+			&:nth-of-type(5) {
+				opacity: 0;
+				left: 200%;
+				transform: rotateY(-80deg);
+			}
+		}
+	}
+}
+
+.mobile {
+	.container {
+		.memberBox {
+			article {
+				width: 32%;
+				margin-bottom: 80px;
+
+				.pic {
+					width: 100%;
+					height: 45vh;
+					margin-top: 70px;
+
+					img {
+						width: 80%;
+						height: 100%;
+						object-fit: cover;
+						box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+						transition: 0.5s;
+						border-radius: 7px;
+					}
+				}
+
+				.name1 {
+					font-family: 'Cormorant Garamond';
+					font-size: 10px;
+				}
+				.name2 {
+					font-family: 'Cormorant Garamond';
+					font-size: 40px;
+				}
+			}
+		}
+	}
+
+	.main1 {
+		.main2 {
+			height: 10px;
+			font-size: 160px;
+			font-family: 'Abril Fatface';
+			padding-left: 20px;
+			text-align: left;
+			position: fixed;
+			top: 50rem;
+		}
+		.main3 {
+			font-family: 'Playfair Display', serif;
+			position: fixed;
+			top: 13%;
+			left: 15px;
+			transform: rotateZ(360deg);
+			font-size: 1rem;
+		}
+	}
+}
+
+.tablet {
+	.container {
+		.memberBox {
+			article {
+				width: 32%;
+				margin-bottom: 80px;
+
+				.pic {
+					width: 100%;
+					height: 45vh;
+					margin-top: 70px;
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+						transition: 0.5s;
+						border-radius: 7px;
+					}
+				}
+
+				.name1 {
+					font-family: 'Cormorant Garamond';
+					font-size: 10px;
+				}
+				.name2 {
+					font-family: 'Cormorant Garamond';
+					font-size: 40px;
+				}
+			}
+		}
+	}
+
+	.main1 {
+		.main2 {
+			height: 10px;
+			font-size: 200px;
+			font-family: 'Abril Fatface';
+			padding-left: 5px;
+			text-align: left;
+			position: fixed;
+			top: 60rem;
+		}
+		.main3 {
+			font-family: 'Playfair Display', serif;
+			position: fixed;
+			top: 13%;
+			left: 15px;
+			transform: rotateZ(360deg);
+			font-size: 1rem;
+		}
+	}
+}
+
+/*
+	flex로 UI좌우 배치하는 방법
+	1. 좌우배치할 덩어리를 부모태그로 wrapping
+	2. 부모요소에 display: flex; justify:content적용
+	3. 이때 사이간격을 주고 싶다면 총 너비의 합이 100% 안되게 설정
+	4. 자식요소로 세로로 줄바꿈 되야 된다면 부모요소에 flex-wrap: wrap설정
+*/

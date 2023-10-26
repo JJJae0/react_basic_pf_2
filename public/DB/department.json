@@ -1,0 +1,19 @@
+{
+  "members": [
+    {
+      "name": "David ",
+      "position": "Front-end Developers",
+      "pic": "black1.png"
+    },
+    {
+      "name": "Julia",
+      "position": "Backend Developers",
+      "pic": "black2.png"
+    },
+    {
+      "name": "Emily",
+      "position": "UI Designer",
+      "pic": "black3.png"
+    }
+  ]
+}

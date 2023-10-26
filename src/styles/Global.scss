@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family: 'Nanum Myeongjo';
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: inherit;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+
+	main {
+		width: 100%;
+		background: var(--bg);
+		color: var(--color);
+	}
+	main.light {
+		background: var(--bg);
+		color: var(--color);
+	}
+	main.dark {
+		background: var(--darkBg);
+		color: var(--darkColor);
+	}
+}
+
+html {
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 4px;
+		background: orangered;
+	}
+}
+
+table {
+	border-collapse: collapse;
+}
+fieldset {
+	border: none;
+}
+.h {
+	position: absolute;
+	top: -9999px;
+	opacity: 0;
+}
+
+.mobile {
+	* {
+		word-break: break-all;
+	}
+}

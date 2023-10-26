@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.Members {
+	margin-left: 10rem;
+	margin-top: 6rem;
+
+	.LayoutBox {
+		position: absolute;
+		width: 43em;
+		height: 43.1rem;
+		left: 73rem;
+		background-color: #26ef7a;
+		border-radius: 20px;
+		.Title {
+			float: left;
+			font-size: 6rem;
+			margin-top: 7rem;
+			font-family: 'Open Sans';
+		}
+		.Subtitle {
+			font-size: 2rem;
+			float: left;
+			margin-top: 3rem;
+			font-family: 'Open Sans';
+			font-weight: bold;
+		}
+		button {
+			justify-content: center;
+			margin-top: 6rem;
+			width: 30rem;
+			height: 100px;
+			border-radius: 20px;
+			font-size: 5rem;
+			font-family: 'Open Sans';
+			// border: none;
+			background-color: #26ef7a;
+		}
+	}
+
+	table {
+		background-color: #26ef7a;
+		border-radius: 20px;
+		margin-left: 20rem;
+		width: 50%;
+		border: none;
+		// border-top: 2px solid #333;
+		// border-bottom: 2px solid #333;
+
+		th {
+			width: 20%;
+			border: none;
+			// border-top: 1px solid #bbb;
+			// border-bottom: 1px solid #bbb;
+			// border-left: 1px solid #bbb;
+			// border-right: 1px solid #bbb;
+			padding: 10px 30px;
+			text-align: center;
+			&:last-child {
+				// text-align: center;
+				input[type='submit'],
+				input[type='reset'] {
+					// border: 1px solid #aaa;
+					width: 100px;
+					height: 30px;
+					float: left;
+
+					// align-items: center;
+					margin: 10px 10px;
+					cursor: pointer;
+				}
+			}
+		}
+		td {
+			border: none;
+			// border-top: 1px solid #bbb;
+			// border-bottom: 1px solid #bbb;
+			// border-left: 1px solid #bbb;
+			// border-right: 1px solid #bbb;
+			padding: 15px 30px;
+
+			input[type='text'],
+			input[type='password'],
+			textarea,
+			select {
+				width: 40%;
+				border: 1px solid #aaa;
+				padding: 6px 10px;
+				background: #f3ffff;
+				resize: none;
+			}
+			input[type='checkbox'],
+			input[type='radio'] {
+				margin-right: 20px;
+				margin-left: 5px;
+			}
+			p {
+				font: 0.8rem/1.2 '돋움';
+				color: hotpink;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+.mobile {
+	.Members {
+		.LayoutBox {
+			width: 300px;
+			height: 100px;
+			margin-left: 20px;
+			left: 0;
+			background-color: #26ef7a;
+			border-radius: 20px;
+		}
+		.Title {
+			float: left;
+			font-size: 2rem;
+			margin-top: 10px;
+			margin-left: 40px;
+			justify-content: center;
+			font-family: 'Open Sans';
+		}
+		.Subtitle {
+			font-size: 0.6rem;
+			margin-left: 18px;
+			margin-top: 30px;
+			margin-top: 3rem;
+			font-family: 'Open Sans';
+			font-weight: bold;
+		}
+		button {
+			justify-content: center;
+			margin-top: 1.3em;
+			width: 24.5rem;
+			height: 30px;
+			border-radius: 20px;
+			font-size: 1rem;
+			font-family: 'Open Sans';
+			// border: none;
+			background-color: #26ef7a;
+		}
+
+		table {
+			margin-left: -8.5rem;
+			margin-top: 15rem;
+			background-color: #26ef7a;
+			border-radius: 20px;
+			width: 300px;
+			height: auto;
+
+			border: none;
+			// border-top: 2px solid #333;
+			// border-bottom: 2px solid #333;
+
+			th {
+				width: 20%;
+				border: none;
+				// border-top: 1px solid #bbb;
+				// border-bottom: 1px solid #bbb;
+				// border-left: 1px solid #bbb;
+				// border-right: 1px solid #bbb;
+				// padding: 10px 30px;
+				// text-align: center;
+				&:last-child {
+					// text-align: center;
+					input[type='submit'],
+					input[type='reset'] {
+						// border: 1px solid #aaa;
+						width: 100px;
+						height: 30px;
+						// float: left;
+
+						// align-items: center;
+						margin: 10px 10px;
+						cursor: pointer;
+					}
+				}
+			}
+			td {
+				border: none;
+				// border-top: 1px solid #bbb;
+				// border-bottom: 1px solid #bbb;
+				// border-left: 1px solid #bbb;
+				// border-right: 1px solid #bbb;
+				padding: 15px 30px;
+
+				input[type='text'],
+				input[type='password'],
+				textarea,
+				select {
+					width: 40%;
+					border: 1px solid #aaa;
+					padding: 6px 10px;
+					background: #f3ffff;
+					resize: none;
+				}
+				input[type='checkbox'],
+				input[type='radio'] {
+					margin-right: 20px;
+					margin-left: 5px;
+				}
+				p {
+					font: 0.8rem/1.2 '돋움';
+					color: hotpink;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+}
+// 반응형 완료
+
+.tablet {
+	.Members {
+		.LayoutBox {
+			width: 60rem;
+			height: 100px;
+			margin-left: 20px;
+			left: 0;
+			background-color: #26ef7a;
+			border-radius: 20px;
+		}
+		.Title {
+			float: left;
+			font-size: 4rem;
+			margin-top: 10px;
+			margin-left: 40px;
+			justify-content: center;
+			font-family: 'Open Sans';
+		}
+		.Subtitle {
+			font-size: 0.8rem;
+			margin-left: 18px;
+			margin-top: 4rem;
+			font-family: 'Open Sans';
+			font-weight: bold;
+		}
+		button {
+			justify-content: center;
+			margin-top: 5rem;
+
+			width: 60rem;
+			height: 30px;
+			border-radius: 20px;
+			font-size: 1rem;
+			font-family: 'Open Sans';
+			// border: none;
+			background-color: #26ef7a;
+		}
+
+		table {
+			margin-left: -8.5rem;
+
+			margin-top: 15rem;
+			background-color: #26ef7a;
+			border-radius: 20px;
+			width: 60rem;
+			height: auto;
+
+			border: none;
+			// border-top: 2px solid #333;
+			// border-bottom: 2px solid #333;
+
+			th {
+				width: 20%;
+				border: none;
+				// border-top: 1px solid #bbb;
+				// border-bottom: 1px solid #bbb;
+				// border-left: 1px solid #bbb;
+				// border-right: 1px solid #bbb;
+				// padding: 10px 30px;
+				// text-align: center;
+				&:last-child {
+					// text-align: center;
+					input[type='submit'],
+					input[type='reset'] {
+						// border: 1px solid #aaa;
+						width: 100px;
+						height: 30px;
+						// float: left;
+
+						// align-items: center;
+						margin: 10px 10px;
+						cursor: pointer;
+					}
+				}
+			}
+			td {
+				border: none;
+				// border-top: 1px solid #bbb;
+				// border-bottom: 1px solid #bbb;
+				// border-left: 1px solid #bbb;
+				// border-right: 1px solid #bbb;
+				padding: 15px 30px;
+
+				input[type='text'],
+				input[type='password'],
+				textarea,
+				select {
+					width: 40%;
+					border: 1px solid #aaa;
+					padding: 6px 10px;
+					background: #f3ffff;
+					resize: none;
+				}
+				input[type='checkbox'],
+				input[type='radio'] {
+					margin-right: 20px;
+					margin-left: 5px;
+				}
+				p {
+					font: 0.8rem/1.2 '돋움';
+					color: hotpink;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+}
+// 반응형 완료

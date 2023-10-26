@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+.header {
+	width: 100%;
+	padding: 3vh 10vw;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Gabarito', sans-serif;
+
+	h1 {
+		font-size: 1.5rem;
+		//color: #333;
+		color: var(--color1);
+		font-family: 'Source Code Pro', monospace;
+	}
+
+	ul {
+		display: flex;
+		gap: 4vw;
+		align-items: center;
+		font-size: 1rem;
+		color: #888;
+
+		li {
+			a.active {
+				color: hotpink;
+			}
+		}
+	}
+
+	.bars {
+		display: none;
+	}
+	.btnTheme {
+		cursor: pointer;
+		color: red;
+	}
+}
+
+.header.main {
+	h1 {
+		color: aqua;
+	}
+}
+
+.header.sub {
+	h1 {
+		color: hotpink;
+	}
+}
+
+.tablet,
+.mobile {
+	.header {
+		ul {
+			display: none;
+		}
+		.bars {
+			display: block;
+		}
+	}
+}

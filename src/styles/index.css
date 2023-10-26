@@ -1,0 +1,15 @@
+:root {
+	--laptop: 1399px;
+	--tablet: 999px;
+	--mobile: 639px;
+	/* --bg: #fff;
+	--color: #111;
+	--darkBg: #111;
+	--darkColor: #fff;
+} */
+}
+/*
+	scss 변수는 빌드 시 리액트 웹팩에서 컴파일 되어야 적용이 되므로 
+	실시간으로 이벤트 발생 시 변수에 할당을 바로 적용시키려면 일반 css 변수로 처리한 다음에 
+	scss 에 index.css 에 등록되어 있는 css 변수를 연결하면 이벤트 시 바로 변경점 반영
+*/

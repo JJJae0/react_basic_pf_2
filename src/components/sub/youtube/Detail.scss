@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+.Detail {
+	.Layout {
+		width: 100%;
+		border-radius: 10px;
+		height: 20rem;
+		background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+		background-color: silver;
+		position: relative;
+		text-align: center;
+
+		.Title {
+			font-size: 7rem;
+			margin-top: 0 auto;
+			font-family: 'Mukta', sans-serif;
+			text-align: center;
+			.subTitle {
+				font-size: 10px;
+				margin-right: 10%;
+				font-family: 'Mukta', sans-serif;
+				position: absolute;
+				text-align: center;
+			}
+		}
+	}
+	h2 {
+		font-weight: bold;
+		font-size: 20px;
+		text-align: center;
+		font-family: 'Mukta', sans-serif;
+	}
+	.playsubTitle {
+		font-family: 'Mukta', sans-serif;
+		text-align: center;
+	}
+
+	iframe {
+		width: 100%;
+		height: 70vh;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+}

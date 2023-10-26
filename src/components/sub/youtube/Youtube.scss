@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.Youtube {
+	margin-top: 2rem;
+
+	.Youtubeapi {
+		display: flex;
+		position: absolute;
+		margin-left: 100px;
+		margin-top: -15rem;
+
+		&:hover {
+			img:nth-of-type(1) {
+				opacity: 0.9;
+				transform: translateZ(-5%);
+			}
+		}
+	}
+
+	.Thumbnail {
+		width: 360px;
+		height: 199px;
+		margin-left: 28px;
+		object-fit: cover;
+		border-radius: 10px;
+		box-shadow: 2px 3px 3px 2px gray;
+	}
+
+	.Main {
+		.layoutBox {
+			width: 1400px;
+			height: 530px;
+			background-color: #fff;
+			margin: 0 auto;
+			position: relative;
+
+			.Line {
+				width: 29rem;
+				height: 0.4rem;
+				top: 18%;
+				margin-left: 60px;
+				background-color: #000;
+				position: absolute;
+			}
+			.title {
+				font-family: 'Playfair Display';
+				font-weight: bold;
+				top: 21%;
+				margin-left: 60px;
+				font-size: 4rem;
+				color: #000;
+				position: absolute;
+			}
+			.title2 {
+				font-family: 'Roboto';
+				position: fixed;
+				top: 18%;
+				left: 350px;
+				margin-left: 150px;
+				font-size: 1.7rem;
+				position: absolute;
+			}
+			.Button {
+				position: absolute;
+				top: 46%;
+				margin-left: 50px;
+
+				.button1 {
+					width: 4rem;
+					height: 4rem;
+					margin-left: 10px;
+					border-radius: 30px;
+				}
+				.button2 {
+					width: 4rem;
+					height: 4rem;
+					margin-left: 10px;
+					border-radius: 30px;
+				}
+			}
+
+			.MainBox {
+				display: flex;
+				position: absolute;
+				top: 60%;
+			}
+		}
+	}
+}
+
+.mobile {
+	.Youtube {
+		margin-top: 2rem;
+
+		.Youtubeapi {
+			display: inline;
+			position: absolute;
+			margin-top: -45rem;
+		}
+
+		.Thumbnail {
+			width: 280px;
+			height: 280px;
+			object-fit: cover;
+			top: 30%;
+			margin-left: -5rem;
+			border-radius: 10px;
+			box-shadow: 2px 3px 3px 2px gray;
+		}
+
+		.layoutBox {
+			width: 350px;
+			height: 80vh;
+			background-color: #fff;
+			margin: 0 auto;
+			position: relative;
+			border-radius: 5px;
+
+			.Line {
+				width: 18rem;
+				height: 0.4rem;
+				top: 3%;
+				margin-left: 15px;
+				background-color: #000;
+				position: absolute;
+			}
+			.title {
+				font-family: 'Playfair Display';
+				font-weight: bold;
+				top: 3%;
+				margin-left: 15px;
+				font-size: 4rem;
+				color: #000;
+				position: absolute;
+			}
+		}
+	}
+}
+
+.tablet {
+	.Youtube {
+		margin-top: 2rem;
+
+		.Youtubeapi {
+			display: inline;
+			position: absolute;
+			margin-top: -45rem;
+		}
+
+		.Thumbnail {
+			width: 700px;
+			height: 300px;
+			object-fit: cover;
+			top: auto;
+			margin-left: -5rem;
+			margin-bottom: 2rem;
+			border-radius: 10px;
+			box-shadow: 2px 3px 3px 2px gray;
+		}
+
+		.layoutBox {
+			width: 750px;
+			height: 80vh;
+			background-color: #fff;
+			margin: 0 auto;
+			position: relative;
+			border-radius: 5px;
+
+			.Line {
+				width: 18rem;
+				height: 0.4rem;
+				top: 3%;
+				margin-left: 15px;
+				background-color: #000;
+				position: absolute;
+			}
+			.title {
+				font-family: 'Playfair Display';
+				font-weight: bold;
+				top: 3%;
+				margin-left: 15px;
+				font-size: 4rem;
+				color: #000;
+				position: absolute;
+			}
+			.title2 {
+				font-family: 'Roboto';
+				position: fixed;
+				top: 4%;
+				left: 280px;
+				margin-left: 10px;
+				font-size: 1rem;
+				position: absolute;
+			}
+		}
+	}
+}
+
+// //mobile
+// .mobile {}
+// .content {
+// 	article {
+// 		width: 100%;
+// 		display: flex;
+// 		justify-content: space-between;
+
+// 		margin-bottom: 80px;
+
+// 		&:nth-of-type(even) {
+// 			flex-direction: row-reverse;
+// 		}
+
+// 		.titBox {
+// 			width: 25%;
+// 		}
+// 		.conBox {
+// 			width: 40%;
+// 		}
+// 		.picBox {
+// 			width: 25%;
+// 			height: 200px;
+// 			overflow: hidden;
+
+// 			img {
+// 				width: 100%;
+// 				height: 100%;
+// 				object-fit: cover;
+// 				transform: scale(1.5);
+// 			}
+// 		}
+// 	}
+// }
