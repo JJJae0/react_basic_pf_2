@@ -2,7 +2,7 @@
 
 .Members {
 	margin-left: 10rem;
-	margin-top: 6rem;
+	margin-top: 5rem;
 
 	.LayoutBox {
 		position: absolute;
@@ -35,6 +35,9 @@
 			// border: none;
 			background-color: #26ef7a;
 		}
+	}
+	form {
+		margin-top: -1rem;
 	}
 
 	table {

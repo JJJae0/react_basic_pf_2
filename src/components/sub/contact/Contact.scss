@@ -16,16 +16,19 @@
 		background-color: white;
 		border-radius: 5px;
 		z-index: 5;
-		overflow: hidden;
 
 		.upper {
-			position: fixed;
-			top: 13rem;
-			margin-left: 20px;
+			.name {
+				position: sticky;
+				top: 10rem;
+				left: 90rem;
+				margin-left: 20px;
+			}
 		}
 		.upperemail {
-			position: fixed;
-			top: 23rem;
+			position: sticky;
+			top: 10rem;
+			left: 90rem;
 			margin-left: 20px;
 		}
 
@@ -45,7 +48,6 @@
 			margin-right: 50px;
 			outline: none;
 			transition: 0.5s;
-
 			&:focus {
 				background: lightcyan;
 			}
@@ -55,7 +57,7 @@
 		width: 100%;
 		display: flex;
 		margin-left: 20px;
-		margin-top: 28rem;
+		margin-top: 8rem;
 
 		label {
 			font: bold 2rem/1 'Playfair Display';
@@ -80,9 +82,10 @@
 		}
 	}
 	.btnSet {
-		position: fixed;
-		justify-content: center;
-		top: 48rem;
+		position: sticky;
+		margin-top: 6rem;
+		margin-left: -25rem;
+		left: 90rem;
 		transform: translate(53%, 0);
 		display: flex;
 		gap: 80px;

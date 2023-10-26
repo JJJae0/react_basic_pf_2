@@ -176,13 +176,13 @@ export default function Contact() {
 					<form ref={form} onSubmit={sendEmail}>
 						<div className='upper'>
 							<span>
-								<label>Name</label>
+								<label className='name'>Name</label>
 								<input type='text' name='user_name' className='nameEl' />
 							</span>
 						</div>
 						<div>
 							<span className='upperemail'>
-								<label>Email</label>
+								<label className='email'>Email</label>
 								<input type='email' name='user_email' className='emailEl' />
 							</span>
 						</div>
