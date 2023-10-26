@@ -21,6 +21,7 @@ export default function Department() {
 	return (
 		<Layout>
 			<div className='container'>
+				<img className='DepartmentImg' src='../img/Department.png' alt='' />
 				<div className='memberBox'>
 					{Department.map((black, idx) => {
 						return (
@@ -35,8 +36,8 @@ export default function Department() {
 					})}
 				</div>
 				<div className='main1'>
-					<p className='main2'>less.</p>
 					<p className='main3'>+ Categories</p>
+					<p className='main2'>less.</p>
 				</div>
 			</div>
 		</Layout>
