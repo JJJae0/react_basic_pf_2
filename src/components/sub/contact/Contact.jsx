@@ -7,10 +7,13 @@ export default function Contact() {
 	const map = useRef(null);
 	const view = useRef(null);
 	const instance = useRef(null);
-	const [Traffic, setTraffic] = useState(false);
+
+	const [Traffic, setTraffic] = useState(true);
 	const [Index, setIndex] = useState(0);
 	const [IsMap, setIsMap] = useState(true);
+
 	const { kakao } = window;
+
 	const info = useRef([
 		{
 			title: '삼성역 코엑스',
