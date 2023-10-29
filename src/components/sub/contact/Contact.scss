@@ -284,7 +284,7 @@
 					height: 30px;
 					border-radius: 50%;
 					margin: 0px 10px;
-					opacity: 0.4; /* 8단계 버튼 활성화하기 */
+					opacity: 0.4;
 					filter: saturate(0.7);
 					background-color: lightgray;
 				}
@@ -315,7 +315,6 @@
 		}
 	}
 }
-// 반응형 완료
 
 .tablet {
 	.content1 {

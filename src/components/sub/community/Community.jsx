@@ -1,5 +1,3 @@
-// 1. 해당 페이지에서 이슈사항을 설명
-
 import './Community.scss';
 import { useRef, useState, useEffect } from 'react';
 
