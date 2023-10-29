@@ -97,6 +97,11 @@
 .mobile {
 	.Youtube {
 		overflow: hidden;
+
+		.YoutubeImg {
+			width: 100%;
+			height: 200px;
+		}
 		.Youtubeapi {
 			display: inline;
 			position: absolute;
