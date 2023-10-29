@@ -107,7 +107,7 @@
 .mobile {
 	.Members {
 		.LayoutBox {
-			width: 300px;
+			width: 90%;
 			height: 100px;
 			margin-left: 20px;
 			left: 0;
@@ -132,8 +132,8 @@
 		}
 		button {
 			justify-content: center;
-			margin-top: 1.3em;
-			width: 24.5rem;
+			margin-top: 2.5rem;
+			width: 28.5rem;
 			height: 30px;
 			border-radius: 20px;
 			font-size: 1rem;
@@ -143,11 +143,12 @@
 		}
 
 		table {
-			margin-left: -8.5rem;
+			margin-left: 1.5rem;
 			margin-top: 15rem;
+			margin-bottom: 2rem;
 			background-color: #26ef7a;
 			border-radius: 20px;
-			width: 300px;
+			width: 90%;
 			height: auto;
 
 			border: none;
